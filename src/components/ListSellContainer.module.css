@@ -1,0 +1,102 @@
+.listSellGrow1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.allInOnePlatform {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.beAPart {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 27px;
+  font-weight: 900;
+  display: inline-block;
+  width: 253px;
+}
+.allInOnePlatformParent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.comeCloserTo,
+.growYourBusiness1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 27px;
+  font-weight: 900;
+  display: inline-block;
+  width: 236px;
+}
+.growYourBusiness1 {
+  width: 223px;
+}
+.frameParent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-base);
+  color: var(--text-color);
+}
+.listSellGrowParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  z-index: 0;
+}
+.frameIcon,
+.frameIcon1 {
+  position: absolute;
+  margin: 0 !important;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameIcon {
+  top: 30px;
+  right: 30px;
+  width: 120px;
+  height: 98px;
+  z-index: 1;
+}
+.frameIcon1 {
+  bottom: 30px;
+  left: 30px;
+  width: 107px;
+  height: 87px;
+  z-index: 2;
+}
+.listSellGrow {
+  align-self: stretch;
+  background-color: var(--color-honeydew);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xl) var(--padding-lg);
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-md);
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 960px) {
+  .frameParent {
+    flex-direction: column;
+  }
+  .listSellGrowParent {
+    gap: var(--gap-5xl);
+  }
+}

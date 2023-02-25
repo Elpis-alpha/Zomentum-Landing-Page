@@ -1,0 +1,111 @@
+.becomeTheVendorEveryoneWan {
+  position: relative;
+  width: 380px;
+  height: 255.54px;
+  flex-shrink: 0;
+}
+.trackYourChannel {
+  align-self: stretch;
+  position: relative;
+  line-height: 37px;
+}
+.monitorTheHealth,
+.signupNow {
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.monitorTheHealth {
+  align-self: stretch;
+  letter-spacing: 0.01em;
+  line-height: 27px;
+  font-weight: 900;
+  color: var(--text-color);
+}
+.signupNow {
+  line-height: 28px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-royalblue-200);
+  text-align: center;
+}
+.rightMenuArrow {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.signupNowParent,
+.trackYourChannelPerformanceParent {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.signupNowParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.trackYourChannelPerformanceParent {
+  width: 381px;
+  height: 285px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2xs);
+}
+.channelProgramRight {
+  align-self: stretch;
+  background-color: var(--color-white-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 960px) {
+  .becomeTheVendorEveryoneWan {
+    flex: 1;
+    min-width: 70%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .trackYourChannelPerformanceParent {
+    min-width: 100%;
+  }
+  .channelProgramRight {
+    flex-direction: column;
+    gap: var(--gap-xl);
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .trackYourChannel {
+    font-size: var(--font-size-lg);
+  }
+  .monitorTheHealth {
+    font-size: var(--font-size-xs);
+  }
+  .trackYourChannelPerformanceParent {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .trackYourChannelPerformanceParent {
+    min-width: 100%;
+  }
+}
